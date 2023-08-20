@@ -6,63 +6,78 @@
 <title>Golf4u</title>
 <style>
   body {
-    font-family: Arial, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-image: url('https://i.pinimg.com/originals/9a/a2/b1/9aa2b1d3072b86054f56100626ec0d72.jpg');;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   header {
-    background-color: #00d43c;
-    color:#121111;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #edeefa;
     padding: 10px 0;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .container {
-    max-width: 1200px;
+   
     margin: 0 auto;
     padding: 20px;
+    background-color:rgba(0, 0, 0, 0.5); /* Add a semi-transparent background color for content area */
   }
-  .product {
-    border: 1px solid #ddd;
-    padding: 20px;
-    margin: 10px;
-    background-color: #fff;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  .welcome-section {
     text-align: center;
+    color: #fff;
+    padding: 40px 0;
   }
-  .product img {
-    max-width: 100%;
-    height: auto;
+  h1 {
+    margin: 0;
+    font-size: 24px;
   }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color:  rgba(0, 0, 0, 0.5);;
+    padding: 5px 0;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  
 </style>
 </head>
 <body>
   <header>
-    <h1>Golf4u</h1>
+    
+    <h1>Golf4u </h1>
+    
+    
   </header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Accessories</a>
+    <a href="#">Clubs</a>
+    <a href="#">Contact us</a>
+    <!-- Add more category links as needed -->
+  </nav>
   <div class="container">
-    <div class="product">
-      <img src="product1.jpg" alt="Product 1">
-      <h2>Product 1</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      <p><strong>$19.99</strong></p>
-      <button>Add to Cart</button>
+    <div class="welcome-section">
+      <h2>Welcome to Singapore's #1 golf shop, GOLF4U!!</h2>
+      <p>Discover a wide range of products in various categories.</p>
     </div>
-    <div class="product">
-      <img src="product2.jpg" alt="Product 2">
-      <h2>Product 2</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      <p><strong>$29.99</strong></p>
-      <button>Add to Cart</button>
-    </div>
-    <div class="product">
-      <img src="product3.jpg" alt="Product 3">
-      <h2>Product 3</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      <p><strong>$39.99</strong></p>
-      <button>Add to Cart</button>
-    </div>
+    <!-- Content of your online store will go here -->
   </div>
+  
 </body>
 </html>
 
